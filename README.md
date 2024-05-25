@@ -31,9 +31,10 @@ INSERT INTO cuentas (id, saldo) VALUES (1, 20000);
 INSERT INTO cuentas (id, saldo) VALUES (2, 10000);
 
 
+# Verificar que las cuentes estan bien creadas :
 node initCuentas.js
 
-
+# Ejecutar y hacer transaccioens.
 node test.js
 
 
